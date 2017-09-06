@@ -222,7 +222,7 @@
     }
   },
   "variables": {
-    "availabilitySetName": "[concat('firewallAvSet', substring(uniqueString(resourceGroup().id), 0, 4))]",
+    "availabilitySetName": "[concat('firewallAvSetIntFW', substring(uniqueString(resourceGroup().id), 0, 4))]",
     "rgname": "[resourceGroup().id]",
     "imagePublisher": "paloaltonetworks",
     "imageOffer" : "vmseries1",
